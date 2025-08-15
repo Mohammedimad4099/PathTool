@@ -16,13 +16,14 @@ Before using PathTool for the first time, you need to run the install command:
 
 ```cmd
 pathtool.exe -install
+`````
 
 This command will:
 Create all necessary files for PathTool to work.
 Add PathTool integration to the right-click context menu of folders.
 Prepare the tool for managing PATH entries.
 
-⚠️ Make sure to run the command in Administrator mode if you want to add paths to the system PATH.
+⚠️ Make sure to run the command in Administrator mode to install.
 
 Usage
 After installation, you can use PathTool commands such as:
@@ -32,3 +33,4 @@ pathtool.exe -s [path or index]
 pathtool.exe -edit [old] [new]
 pathtool.exe -b
 pathtool.exe -b -r
+
