@@ -28,9 +28,15 @@ Prepare the tool for managing PATH entries.
 Usage
 After installation, you can use PathTool commands such as:
 pathtool.exe -add [path]
+
 pathtool.exe -rm [path or index]
+
 pathtool.exe -s [path or index]
+
 pathtool.exe -edit [old] [new]
+
 pathtool.exe -b
+
 pathtool.exe -b -r
+
 
